@@ -1,4 +1,6 @@
 # stacks-of-code
 Hello everyone! This is my professional portfolio space.
-Author - Bhumika 
+<br>
+Author - Bhumika
+<br>
 Current Qualification - IPM from IIM Jammu
