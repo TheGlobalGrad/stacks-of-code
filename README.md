@@ -3,4 +3,5 @@ Hello everyone! This is my professional portfolio space.
 <br>
 Author - Bhumika
 <br>
-Current Qualification - IPM from IIM Jammu
+I am currently pusuing Integrated Programme in Management from Indian institute of Management.
+
