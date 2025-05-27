@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudo-Elements Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        /* ::before and ::after */
+        
+        h2::before {
+            content: "🌟 ";
+            color: gold;
+        }
+        
+        h2::after {
+            content: " ✔️";
+            color: green;
+        }
+        /* ::first-letter */
+        
+        p::first-letter {
+            font-size: 2em;
+            color: red;
+            font-weight: bold;
+        }
+        /* ::first-line */
+        
+        p::first-line {
+            text-decoration: underline;
+        }
+        /* ::placeholder */
+        
+        input::placeholder {
+            color: gray;
+            font-style: italic;
+        }
+        /* ::selection */
+        
+         ::selection {
+            background-color: yellow;
+            color: black;
+        }
+        /* ::marker */
+        
+        ul li::marker {
+            color: blue;
+            font-size: 1.2em;
+        }
+        /* ::file-selector-button */
+        
+        .box {
+            width: 200px;
+            height: 100px;
+            background: lightblue;
+            text-align: center;
+            /* No border here — still a box! */
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <div class="box"></div>
+    <script>
+        alert("hello world")
+    </script>
+
+</body>
+
+</html>
